@@ -1,0 +1,94 @@
+.tit {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 24px;
+    position: absolute;
+    top: 0;
+    padding-left: 24px;
+}
+.container {
+    padding:24px;
+}
+.corner-div {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(40deg, white, white, rgba(161, 227, 230, 0.247), rgba(90, 207, 207, 0.733));
+}
+.big-text {
+    font-weight: bold;
+    font-size: 2.2em;
+    color: black;
+    position: absolute;
+    top: 120px;
+}
+.text {
+    margin-top: 70px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 1em;
+    color: #191826;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.black-cover {
+    padding: 0;
+    width: 100%;
+    height: 420px;
+    background-color: #191826;
+    border-radius: 12px;
+    margin-top: 166px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aqua-circle {
+    background-color: #66E2DC;
+    border-radius: 39px 39px 39px 39px;
+    width: 70px;
+    height: 140px;
+}
+.yell-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 78px;
+    background-color: #FFB964;
+}
+.circle-big {
+    width: 140px;
+    height: 140px;
+    border-radius: 78px;
+    border: 1px solid #FCFAF9;
+    position: relative;
+    overflow: hidden;
+}
+.circle-small {
+    width: 70px;
+    height: 70px;
+    border-radius: 78px;
+    border: 1px solid #FCFAF9;
+    position: absolute;
+    left: 35px;
+    top:80px;
+}
+.aqua-shape {
+    width: 140px;
+    height: 210px;
+    background-color: #66E2DC;
+    border-radius: 100px 100px 0px 100px;
+}
+.circles-3 {
+    display: flex;
+    flex-direction: column;
+}
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-img {
+    position: absolute;
+    top: -90px;
+    width: 200px;
+    display: flex;
+}
