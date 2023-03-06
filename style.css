@@ -5,6 +5,7 @@
     position: absolute;
     top: 0;
     padding-left: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 .container {
     padding:24px;
@@ -21,17 +22,17 @@
     color: black;
     position: absolute;
     top: 120px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 .text {
     margin-top: 70px;
     text-align: left;
-    line-height: 20px;
+    line-height: 26px;
     font-size: 1em;
     color: #191826;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .black-cover {
-    padding: 0;
     width: 100%;
     height: 420px;
     background-color: #191826;
@@ -91,4 +92,115 @@
     top: -90px;
     width: 200px;
     display: flex;
+}
+.orange-div {
+    background-color: #FA7453;  
+    width: 100%;
+    height: 570px;
+    margin-top: -30px;
+    z-index: 4;
+    position: absolute;
+    border-radius: 12px;
+}
+.prem {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.get-text {
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.dollar {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+}
+.month {
+    color: white;
+    margin-left: 10px;
+}
+.dollar-month {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.ios-dow {
+    width: 100%;
+    height: 60px;
+    background-color:  #191826;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    transition: 1s;
+}
+.ios-dow:hover {
+    background-color: #66E2DC;
+    cursor: pointer;
+}
+.android-dow {
+    width: 100%;
+    height: 60px;
+    background-color: #FCFAF9;
+    border-radius: 12px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    transition: 1s;
+}
+.android-dow:hover {
+    background-color: #FFB964;
+    cursor: pointer;
+}
+footer {
+    margin-top: 590px;
+}
+.last-p {
+    color: #191826;
+    line-height: 26px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.black-email {
+    color: black;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.equa {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.fa {
+    margin-right: 7px;
+}
+.fb{
+    margin-right: 10px;
+}
+.fb:hover {
+    color: #FA7453;
+}
+.insta {
+    margin-right: 10px;
+}
+.logos {
+    margin-top: 60px;
 }
